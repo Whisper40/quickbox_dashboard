@@ -109,7 +109,9 @@
               </div>
             </div><!-- DISK WIDGET -->
 
-            
+            <div class="col-sm-12">
+              
+            </div><!-- CPU WIDGET -->
             <?php if ($username == "$master" && file_exists("/install/.foo.lock")) { ?>
               <div class="col-sm-12">
                 <div id="project-commits" class="panel panel-inverse">
