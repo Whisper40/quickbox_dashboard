@@ -76,6 +76,7 @@
 
         <div class="col-md-4 dash-right">
           <div class="row">
+            <?php if ($username == "$master"){ ?>
             <div class="col-sm-12">
               <div class="panel panel-side panel-inverse-full panel-updates">
                 <div class="panel-heading">
@@ -99,6 +100,7 @@
                 </div>
               </div><!-- panel -->
             </div><!-- SERVER LOAD WIDGET -->
+          <?php } ?>
             <div class="col-sm-12">
               <div class="panel panel-side panel-inverse">
                 <div class="panel-heading">
