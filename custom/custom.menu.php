@@ -55,4 +55,4 @@ $account = " https://sdedikool.me/"
   <li><a class="grayscale" href="<?php echo "$plex"; ?>" target="_blank"><img src="img/brands/plex.png" class="brand-ico"> <span>Plex</span></a></li>
   <li><a class="grayscale" href="<?php echo "$emby"; ?>" target="_blank"><img src="img/brands/emby.png" class="brand-ico"> <span>Emby</span></a></li>
   <li><a class="grayscale" href="<?php echo "$nextcloud"; ?>" target="_blank"><img src="img/brands/nextcloud.png" class="brand-ico"> <span>Nextcloud</span></a></li>
-  <li><a class="grayscale" href="<?php echo "$account"; ?>" target="_blank"><img src="img/brands/account.png" class="brand-ico"> <span>Mon Compte</span></a></li>
+  <li><a class="grayscale" href="<?php echo "$account"; ?>" target="_blank"><img src="img/brands/user-solid.svg" class="brand-ico"> <span>Mon Compte</span></a></li>
