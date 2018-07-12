@@ -57,4 +57,4 @@ $disconnect = "disconnect.php";
   <li><a class="grayscale" href="<?php echo "$emby"; ?>" target="_blank"><img src="img/brands/emby.png" class="brand-ico"> <span>Emby</span></a></li>
   <li><a class="grayscale" href="<?php echo "$nextcloud"; ?>" target="_blank"><img src="img/brands/nextcloud.png" class="brand-ico"> <span>Nextcloud</span></a></li>
   <li><a class="grayscale" href="<?php echo "$account"; ?>" target="_blank"><img src="img/brands/user-solid.svg" class="brand-ico"> <span>Mon Compte</span></a></li>
-  <li><a class="grayscale" href="<?php echo "$disconnect"; ?>"<img src="img/brands/out.svg" class="brand-ico"> <span>Déconnexion</span></a></li>
+  <li><a class="grayscale" href="<?php echo "$disconnect"; ?>" target="_blank"><img src="img/brands/out.svg" class="brand-ico"> <span>Déconnexion</span></a></li>
