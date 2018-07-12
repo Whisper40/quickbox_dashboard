@@ -42,4 +42,4 @@ $plex = "https://app.plex.tv/desktop#";//
 
 
 <!-- // INSERT YOUR CUSTOM EXTERNAL or INTERNAL MENU ITEMS HERE! // -->
-<li><a href="<?php echo "$plex"; ?>" class="grayscale" target="_blank"><i class="fa play text-danger"></i> <span><?php echo T('PLEX'); ?></span></a></li>
+  <li><a class="grayscale" href="<?php echo "$plex"; ?>" target="_blank"><img src="img/brands/plex.jpg" class="brand-ico"> <span>Plex</span></a></li>
