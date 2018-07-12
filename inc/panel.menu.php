@@ -125,8 +125,9 @@
                 <div role="tabpanel">
                   <!-- Nav tabs -->
                   <ul class="nav nav-tabs nav-justified" role="tablist">
+                    <button>
                     <small><style="color:#fff"><strong style="color: #4CD4B0"> <a href="https://discord.gg/DUnFsyG" target="_blank">Déconnexion</a> </strong></small>
-
+                    </button>
 
                   </ul>
                 </div>
