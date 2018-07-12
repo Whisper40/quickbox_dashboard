@@ -117,10 +117,10 @@
 
           <li>
             <div class="btn-group">
-              <button type="button" class="btn btn-logged" data-toggle="dropdown">
+
                 <?php echo "$username"; ?>
                 <span class="caret"></span>
-              </button>
+              
               <?php include("db/branding-m.php"); ?>
             </div>
           </li>
