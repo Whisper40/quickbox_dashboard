@@ -24,14 +24,14 @@
           <li>
             <div id="noticePanel" class="btn-group">
               <button class="btn" data-toggle="dropdown">
-                <i class="fa fa-menu"></i> swizzin Menu <span class="caret"></span>
+                <i class="fa fa-menu"></i> Menu SdediKool<span class="caret"></span>
               </button>
               <div id="noticeDropdown" class="dropdown-menu dm-notice pull-right">
                 <div role="tabpanel">
                   <!-- Nav tabs -->
                   <ul class="nav nav-tabs nav-justified" role="tablist">
-                    <li class="active"><a data-target="#quickplus" data-toggle="tab">swizzin+</a></li>
-                    <li><a data-target="#chat" data-toggle="tab">Chat</a></li>
+                    <li class="active"><a data-target="#quickplus" data-toggle="tab">SdediKool+</a></li>
+                    <li><a data-target="#chat" data-toggle="tab">Discord</a></li>
                     <li><a data-target="#dashadjust" data-toggle="tab">Dashboard</a></li>
                   </ul>
 
@@ -42,33 +42,13 @@
                         <li class="list-group-item">
                           <div class="row">
                             <div class="col-xs-12">
-                              <small><a href="https://github.com/liaralabs/swizzin/blob/master/README.md" target="_blank">README</a></small>
-                              <small><a href="https://github.com/liaralabs/swizzin/blob/master/CHANGELOG.md" target="_blank">CHANGELOG</a></small>
+                              <small><a href="https://sdedikool.me/dashboard.php" target="_blank">Mon Compte</a></small>
+                              <small><a href="https://sdedikool.me/" target="_blank">Boutique</a></small>
                             </div>
                           </div>
                         </li>
 
-                        <li class="list-group-item">
-                          <div class="row">
-                            <div class="col-xs-12">
-                              <h5>swizzin</h5>
-                            </div>
-                            <div class="col-xs-12">
-                              <div class="col-xs-12 col-md-6" style="padding: 0">
-                                <ul style="padding-left: 5px">
-                                <li><small><a href="https://github.com/liaralabs/swizzin" target="_blank" alt="View swizzin on github">Github</a></small></li>
-                                <li><small><a href="https://swizzin.ltd" target="_blank" alt="swizzin homepage">Home</a></small></li>
-                                </ul>
-                              </div>
-                              <div class="col-xs-12 col-md-6" style="padding: 0">
-                                <ul style="padding-left: 5px">
-                                <li><small><a href="https://github.com/liaralabs/swizzin/wiki" target="_blank" alt="swizzin wiki">Wiki</a></small></li>
-                                <li><small><a href="https://github.com/liaralabs/swizzin/issues" target="_blank"><?php echo T('ISSUE_REPORT_TXT'); ?></a></small></li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
+                        
                       </ul>
                       <!--a class="btn-more" href="">View More QuickBox <i class="fa fa-long-arrow-right"></i></a-->
                     </div><!-- tab-pane -->
