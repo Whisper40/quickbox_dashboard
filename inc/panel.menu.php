@@ -20,7 +20,7 @@
             </div>
           </li>
           <?php } ?>
-          <?php if ($username == "$master") { ?>
+
           <li>
             <div id="noticePanel" class="btn-group">
               <button class="btn" data-toggle="dropdown">
@@ -46,6 +46,9 @@
                               <small><a href="https://sdedikool.me/my_seedbox.php" target="_blank">Ma seedbox</a></small>
                               <small><a href="https://sdedikool.me/my_bank.php" target="_blank">Ma Banque</a></small>
                               <small><a href="https://sdedikool.me/" target="_blank">Boutique</a></small>
+                              <?php if ($username == "$master") { ?>
+                              <small><a href="https://sdedikool.me/admin" target="_blank">Admin Gestion</a></small>
+                                      <?php } ?>
                             </div>
                           </div>
                         </li>
@@ -111,7 +114,7 @@
               </div>
             </div>
           </li>
-          <?php } ?>
+
           <li>
             <div class="btn-group">
               <button type="button" class="btn btn-logged" data-toggle="dropdown">
