@@ -54,5 +54,5 @@ $account = " https://sdedikool.me/"
 <!-- // INSERT YOUR CUSTOM EXTERNAL or INTERNAL MENU ITEMS HERE! // -->
   <li><a class="grayscale" href="<?php echo "$plex"; ?>" target="_blank"><img src="img/brands/plex.png" class="brand-ico"> <span>Plex</span></a></li>
   <li><a class="grayscale" href="<?php echo "$emby"; ?>" target="_blank"><img src="img/brands/emby.png" class="brand-ico"> <span>Emby</span></a></li>
-  <li><a class="grayscale" href="<?php echo "$nextcloud"; ?>" target="_blank"><img src="img/brands/nextcloud.png" class="brand-ico"> <span>Emby</span></a></li>
-  <li><a class="grayscale" href="<?php echo "$account"; ?>" target="_blank"><i class="fa user text-danger"></i><span>Mon Compte</span></a></li>
+  <li><a class="grayscale" href="<?php echo "$nextcloud"; ?>" target="_blank"><img src="img/brands/nextcloud.png" class="brand-ico"> <span>Nextcloud</span></a></li>
+  <li><a class="grayscale" href="<?php echo "$account"; ?>" target="_blank"><i class="fa user text-danger brand-ico"></i><span>Mon Compte</span></a></li>
