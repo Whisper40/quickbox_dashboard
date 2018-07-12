@@ -24,7 +24,7 @@
           <li>
             <div id="noticePanel" class="btn-group">
               <button class="btn" data-toggle="dropdown">
-                <i class="fa fa-menu"></i> Menu SdediKool<span class="caret"></span>
+                <i class="fa fa-menu"></i> Menu SdediKool <span class="caret"></span>
               </button>
               <div id="noticeDropdown" class="dropdown-menu dm-notice pull-right">
                 <div role="tabpanel">
@@ -43,12 +43,14 @@
                           <div class="row">
                             <div class="col-xs-12">
                               <small><a href="https://sdedikool.me/dashboard.php" target="_blank">Mon Compte</a></small>
+                              <small><a href="https://sdedikool.me/my_seedbox.php" target="_blank">Ma seedbox</a></small>
+                              <small><a href="https://sdedikool.me/my_bank.php" target="_blank">Ma Banque</a></small>
                               <small><a href="https://sdedikool.me/" target="_blank">Boutique</a></small>
                             </div>
                           </div>
                         </li>
 
-                        
+
                       </ul>
                       <!--a class="btn-more" href="">View More QuickBox <i class="fa fa-long-arrow-right"></i></a-->
                     </div><!-- tab-pane -->
@@ -62,8 +64,9 @@
                             </div>
                             <div class="col-xs-10">
                               <h5><?php echo T('JOIN_US_TXT'); ?></h5>
-                              <small style="color:#fff"><strong style="color: #4CD4B0">host:</strong> irc.swizzin.ltd +6697</small>
-                              <small style="color:#fff"><strong style="color: #4CD4B0">chan:</strong> #swizzin</small>
+
+                              <small>style="color:#fff"><strong style="color: #4CD4B0"> <a href="https://discord.gg/DUnFsyG" target="_blank">Discord</a> </strong></small>
+                              
                             </div>
                           </div>
                         </li>
