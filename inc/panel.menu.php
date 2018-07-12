@@ -119,19 +119,8 @@
             <div class="btn-group">
               <button type="button" class="btn btn-logged" data-toggle="dropdown">
                 <?php echo "$username"; ?>
-
+                <span class="caret"></span>
               </button>
-              <div id="noticeDropdown" class="dropdown-menu dm-notice pull-right">
-                <div role="tabpanel">
-                  <!-- Nav tabs -->
-                  <ul class="nav nav-tabs nav-justified" role="tablist">
-                    <button>
-                    <small><style="color:#fff"><strong style="color: #4CD4B0"> <a href="https://discord.gg/DUnFsyG" target="_blank" data-toggle="tab">Déconnexion</a> </strong></small>
-                    
-                    </button>
-
-                  </ul>
-                </div>
               <?php include("db/branding-m.php"); ?>
             </div>
           </li>
