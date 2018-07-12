@@ -125,8 +125,9 @@
                 <div role="tabpanel">
                   <!-- Nav tabs -->
                   <ul class="nav nav-tabs nav-justified" role="tablist">
-                    <li class="active"><a data-target="#quickplus" data-toggle="tab">SdediKool+</a></li>
-                    
+                    <li class="active"><a href="https://discord.gg/DUnFsyG" data-target="#quickplus" data-toggle="tab">Déconnexion</a></li>
+
+
                   </ul>
                 </div>
               <?php include("db/branding-m.php"); ?>
