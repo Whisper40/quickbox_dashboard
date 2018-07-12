@@ -110,7 +110,22 @@
             </div><!-- DISK WIDGET -->
 
             <div class="col-sm-12">
-              
+              <div class="panel panel-side panel-inverse">
+                <div class="panel-heading">
+                  <h4 class="panel-title"><?php echo T('CPU_STATUS'); ?></h4>
+                </div>
+                <div class="panel-body" style="overflow:hidden">
+                  <div style="padding:0;margin:-15px -30 -15px -15px">
+                    <div id="flot-placeholder1" style="width:100%;height:200px;"></div>
+                    <!--div id="metercpu"></div-->
+                  </div>
+                  <hr />
+                  <span class="nomargin" style="font-size:14px">
+                    <?php echo $sysInfo['cpu']['model'];?><br/>
+                    [<span style="color:#999;font-weight:600">x<?php echo $sysInfo['cpu']['num']; ?></span> core]
+                  </span>
+                </div>
+              </div>
             </div><!-- CPU WIDGET -->
             <?php if ($username == "$master" && file_exists("/install/.foo.lock")) { ?>
               <div class="col-sm-12">
