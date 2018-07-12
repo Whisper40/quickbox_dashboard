@@ -36,10 +36,10 @@
 
 
 // INSERT YOUR CUSTOM EXTERNAL or INTERNAL LINKS HERE! //
-//$quickboxURL = "https://quickbox.io/donate/";//
+$plex = "https://app.plex.tv/desktop#";//
 
 ?> <!-- Do not remove this closing (?>) -->
 
 
 <!-- // INSERT YOUR CUSTOM EXTERNAL or INTERNAL MENU ITEMS HERE! // -->
-<li><a href="<?php echo "$quickboxURL"; ?>" class="grayscale" target="_blank"><i class="fa fa-heart text-danger"></i> <span><?php echo T('DONATE'); ?></span></a></li>
+<li><a href="<?php echo "$plex"; ?>" class="grayscale" target="_blank"><i class="fa play text-danger"></i> <span><?php echo T('PLEX'); ?></span></a></li>
