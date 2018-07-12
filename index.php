@@ -108,16 +108,7 @@
                 </div>
               </div>
             </div><!-- DISK WIDGET -->
-            <div class="col-sm-12">
-              <div class="panel panel-side panel-inverse">
-                <div class="panel-heading">
-                  <h4 class="panel-title"><?php echo T('SYSTEM_RAM_STATUS'); ?></h4>
-                </div>
-                <div class="panel-body">
-                  <div id="meterram"></div>
-                </div>
-              </div>
-            </div><!-- RAM WIDGET -->
+            
             <div class="col-sm-12">
               <div class="panel panel-side panel-inverse">
                 <div class="panel-heading">
