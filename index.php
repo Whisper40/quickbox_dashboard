@@ -52,6 +52,7 @@
               </div>
             </div>
           </div>
+          <?php if ($username == "$master"){ ?>
           <div class="panel panel-inverse">
             <div class="panel-heading">
               <h4 class="panel-title"><?php echo T('VIEW_ADDITIONAL_BANDWIDTH_DETAILS'); ?></h4>
@@ -60,7 +61,7 @@
               <div class="row" style="padding: 0; margin: 0"><div id="bw_tables" style="padding:0;margin:0;"></div></div>
             </div>
           </div>
-
+          <?php } ?>
           <!--SERVICE CONTROL CENTER-->
           <?php include ('widgets/service_control.php'); ?>
           <!-- panel -->
