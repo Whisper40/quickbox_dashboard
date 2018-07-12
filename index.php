@@ -121,8 +121,8 @@
                   </div>
                   <hr />
                   <span class="nomargin" style="font-size:14px">
-                    <?php echo $sysInfo['cpu']['model'];?><br/>
-                    [<span style="color:#999;font-weight:600">x<?php echo $sysInfo['cpu']['num']; ?></span> core]
+
+                    
                   </span>
                 </div>
               </div>
