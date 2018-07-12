@@ -48,7 +48,7 @@
                           </div>
                         </li>
 
-
+                        
                       </ul>
                       <!--a class="btn-more" href="">View More QuickBox <i class="fa fa-long-arrow-right"></i></a-->
                     </div><!-- tab-pane -->
@@ -111,61 +111,12 @@
           <li>
             <div class="btn-group">
               <button type="button" class="btn btn-logged" data-toggle="dropdown">
-                <i class="fa fa-menu"></i><?php echo "$username"; ?> <span class="caret"></span>
+                <?php echo "$username"; ?>
+                <span class="caret"></span>
               </button>
               <?php include("db/branding-m.php"); ?>
-              <div id="noticeDropdown" class="dropdown-menu dm-notice pull-right">
-                <div role="tabpanel">
-                  <!-- Nav tabs -->
-                  <ul class="nav nav-tabs nav-justified" role="tablist">
-                    <li class="active"><a data-target="#quickplus" data-toggle="tab">SK+</a></li>
-
-                  </ul>
-
-                  <!-- Tab panes -->
-                  <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="quickplus">
-                      <ul class="list-group">
-                        <li class="list-group-item">
-                          <div class="row">
-                            <div class="col-xs-12">
-                              <small><a href="https://sdedikool.me/dashboard.php" target="_blank">Déconnexion</a></small>
-
-                            </div>
-                          </div>
-                        </li>
-
-                      </ul>
-                      <!--a class="btn-more" href="">View More QuickBox <i class="fa fa-long-arrow-right"></i></a-->
-                    </div><!-- tab-pane -->
-
-                  </div>
-                </div>
-              </div>
             </div>
-        </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          </li>
         </ul>
       </div><!-- header-right -->
     </div><!-- headerbar -->
