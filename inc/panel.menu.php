@@ -65,8 +65,8 @@
                             <div class="col-xs-10">
                               <h5><?php echo T('JOIN_US_TXT'); ?></h5>
 
-                              <small>style="color:#fff"><strong style="color: #4CD4B0"> <a href="https://discord.gg/DUnFsyG" target="_blank">Discord</a> </strong></small>
-                              
+                              <small><style="color:#fff"><strong style="color: #4CD4B0"> <a href="https://discord.gg/DUnFsyG" target="_blank">Rejoindre Discord</a> </strong></small>
+
                             </div>
                           </div>
                         </li>
