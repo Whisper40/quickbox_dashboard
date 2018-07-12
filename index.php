@@ -76,12 +76,13 @@
 
         <div class="col-md-4 dash-right">
           <div class="row">
-            <?php if ($username == "$master"){ ?>
             <div class="col-sm-12">
               <div class="panel panel-side panel-inverse-full panel-updates">
                 <div class="panel-heading">
+                  <?php if ($username == "$master"){ ?>
                   <h4 class="panel-title text-success"><?php echo T('SERVER_LOAD'); ?></h4>
                 </div>
+              <?php } ?>
                 <div class="panel-body">
                   <div class="row">
                     <div class="col-sm-9">
@@ -100,7 +101,6 @@
                 </div>
               </div><!-- panel -->
             </div><!-- SERVER LOAD WIDGET -->
-          <?php } ?>
             <div class="col-sm-12">
               <div class="panel panel-side panel-inverse">
                 <div class="panel-heading">
