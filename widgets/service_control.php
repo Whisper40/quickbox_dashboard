@@ -42,6 +42,9 @@
                     </tr>
                     <?php } ?>
 
+
+                    
+
                   <?php if (file_exists("/install/.autodl.lock")) { ?>
                     <tr>
                       <td><span id="appstat_irssi"></span> iRSSi-AutoDL </td>
@@ -216,7 +219,7 @@
                       <td class="text-center"><?php echo "$cbodysr"; ?></td>
                     </tr>
                     <?php } ?>
-                                                                                                                                                                                              
+
                     <?php if (file_exists("/install/.sonarr.lock")) { ?>
                     <tr>
                       <td><span id="appstat_sonarr"></span> Sonarr </td>
@@ -240,7 +243,7 @@
                       <td class="text-center"><?php echo "$cbodyst"; ?></td>
                     </tr>
                     <?php } ?>
-                    
+
                     <?php if (file_exists("/install/.lounge.lock")) { ?>
                     <tr>
                       <td><span id="appstat_lounge"></span> The Lounge </td>
